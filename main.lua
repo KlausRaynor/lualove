@@ -20,6 +20,7 @@ love.graphics.clear = function() end
 function love.load()
     love.window.setTitle("Bouncy Box")
     love.window.setMode(640,480)
+    love.graphics.setBackgroundColor(0.01, 0.01, 0.01)
 end
 
 -- update function
